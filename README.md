@@ -17,5 +17,5 @@ Assuming your OTP2 instance is running and you have a list of locations, running
 
 Once you input these paths, the script should handle the rest.
 
-#What do you do with geojson files?
+# What do you do with geojson files?
 Some GIS programs can read these directly. ArcGIS Pro can import jsons/geojsons directly and convert them into shapefiles or feature layers. Refer to the documentation of your GIS software. 

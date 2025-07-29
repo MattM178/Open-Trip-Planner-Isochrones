@@ -4,7 +4,7 @@
 ![Isochrone1](https://github.com/user-attachments/assets/b512d921-6a45-4cb7-8c45-346142cfef02)
 
  # Background and Getting Started
- This script is designed to use an Open Trip Planner 2 instance of whatever location (OpenStreetMap) and transit system (GTFS) you wish, and use the Travel Time API to generate isochrones for a set of locations. It requires a running Open Trip Planner 2 on your local machine. To set up Open Trip Planner 2, review the documentation and follow the provided tutorial: https://docs.opentripplanner.org/en/latest/Basic-Tutorial/
+ This script is designed to use an Open Trip Planner 2 (version 2.5) instance of whatever location (OpenStreetMap) and transit system (GTFS) you wish, and use the Travel Time API to generate isochrones for a set of locations. It requires a running Open Trip Planner 2 on your local machine. To set up Open Trip Planner 2, review the documentation and follow the provided tutorial: https://docs.opentripplanner.org/en/latest/Basic-Tutorial/
 
 # Configuring the script
 The script requires a CSV file of locations to run. The required fields are a set of latitude and longitude coordinates (YCoord and X Coord), and a location id (stop_name). This script is set up to assume the origin location is a rail or bus station, but you can modify this to suit your needs. Just be sure to update the code accordingly. 
